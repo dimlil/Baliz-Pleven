@@ -17,7 +17,7 @@ function Header() {
                 <Link to='/reports'>Отчети</Link>
             </div>    
         </div>
-        <a href="novini.html" className={style.marginFromTop}>Новини</a>
+        <Link to='/news' className={style.marginFromTop}>Новини</Link>
         <div className={style.dropdown}>
             <button className={style.dropbtn}>Проекти</button>
             <div className={style.dropdown_content}>
